@@ -15,6 +15,7 @@
 		BE4B373A26E4C1760033BD4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4B373826E4C1760033BD4F /* LaunchScreen.storyboard */; };
 		BE4B374526E4C1760033BD4F /* PostReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B374426E4C1760033BD4F /* PostReaderTests.swift */; };
 		BE4B375026E4C1760033BD4F /* PostReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B374F26E4C1760033BD4F /* PostReaderUITests.swift */; };
+		BE4B377D26E4CBCA0033BD4F /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = BE4B377C26E4CBCA0033BD4F /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BE4B374B26E4C1760033BD4F /* PostReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE4B374F26E4C1760033BD4F /* PostReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostReaderUITests.swift; sourceTree = "<group>"; };
 		BE4B375126E4C1760033BD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE4B377C26E4CBCA0033BD4F /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		BE4B372126E4C1750033BD4F = {
 			isa = PBXGroup;
 			children = (
+				BE4B377C26E4CBCA0033BD4F /* Readme.md */,
 				BE4B372C26E4C1750033BD4F /* PostReader */,
 				BE4B374326E4C1760033BD4F /* PostReaderTests */,
 				BE4B374E26E4C1760033BD4F /* PostReaderUITests */,
@@ -233,6 +236,7 @@
 			files = (
 				BE4B373A26E4C1760033BD4F /* LaunchScreen.storyboard in Resources */,
 				BE4B373726E4C1760033BD4F /* Assets.xcassets in Resources */,
+				BE4B377D26E4CBCA0033BD4F /* Readme.md in Resources */,
 				BE4B373526E4C1750033BD4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
