@@ -16,6 +16,7 @@
 		BE4B374526E4C1760033BD4F /* PostReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B374426E4C1760033BD4F /* PostReaderTests.swift */; };
 		BE4B375026E4C1760033BD4F /* PostReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B374F26E4C1760033BD4F /* PostReaderUITests.swift */; };
 		BE4B377D26E4CBCA0033BD4F /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = BE4B377C26E4CBCA0033BD4F /* Readme.md */; };
+		BE4B378326E4D9AF0033BD4F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B378226E4D9AF0033BD4F /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BE4B374F26E4C1760033BD4F /* PostReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostReaderUITests.swift; sourceTree = "<group>"; };
 		BE4B375126E4C1760033BD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE4B377C26E4CBCA0033BD4F /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		BE4B378226E4D9AF0033BD4F /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 		BE4B372C26E4C1750033BD4F /* PostReader */ = {
 			isa = PBXGroup;
 			children = (
+				BE4B378126E4D99B0033BD4F /* Managers */,
 				BE4B372D26E4C1750033BD4F /* AppDelegate.swift */,
 				BE4B372F26E4C1750033BD4F /* SceneDelegate.swift */,
 				BE4B373126E4C1750033BD4F /* ViewController.swift */,
@@ -129,6 +132,14 @@
 				BE4B375126E4C1760033BD4F /* Info.plist */,
 			);
 			path = PostReaderUITests;
+			sourceTree = "<group>";
+		};
+		BE4B378126E4D99B0033BD4F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				BE4B378226E4D9AF0033BD4F /* APIManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE4B378326E4D9AF0033BD4F /* APIManager.swift in Sources */,
 				BE4B373226E4C1750033BD4F /* ViewController.swift in Sources */,
 				BE4B372E26E4C1750033BD4F /* AppDelegate.swift in Sources */,
 				BE4B373026E4C1750033BD4F /* SceneDelegate.swift in Sources */,
