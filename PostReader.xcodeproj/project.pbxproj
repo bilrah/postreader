@@ -18,6 +18,8 @@
 		BE4B377D26E4CBCA0033BD4F /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = BE4B377C26E4CBCA0033BD4F /* Readme.md */; };
 		BE4B378326E4D9AF0033BD4F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B378226E4D9AF0033BD4F /* APIManager.swift */; };
 		BE4B378926E4DAEB0033BD4F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B378826E4DAEB0033BD4F /* Constants.swift */; };
+		BE4B379526E4E26E0033BD4F /* PostContentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE4B379426E4E26E0033BD4F /* PostContentTableViewCell.xib */; };
+		BE4B37C126E4E6D00033BD4F /* PostContentTableVIewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4B37C026E4E6D00033BD4F /* PostContentTableVIewCellTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		BE4B377C26E4CBCA0033BD4F /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		BE4B378226E4D9AF0033BD4F /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		BE4B378826E4DAEB0033BD4F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BE4B379426E4E26E0033BD4F /* PostContentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostContentTableViewCell.xib; sourceTree = "<group>"; };
+		BE4B37C026E4E6D00033BD4F /* PostContentTableVIewCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostContentTableVIewCellTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 		BE4B372C26E4C1750033BD4F /* PostReader */ = {
 			isa = PBXGroup;
 			children = (
+				BE4B379226E4E2330033BD4F /* Views */,
 				BE4B378D26E4DEDC0033BD4F /* Screens */,
 				BE4B378726E4DADB0033BD4F /* Constants */,
 				BE4B378126E4D99B0033BD4F /* Managers */,
@@ -167,6 +172,23 @@
 				BE4B373326E4C1750033BD4F /* PostsScreen.storyboard */,
 			);
 			path = PostsScreen;
+			sourceTree = "<group>";
+		};
+		BE4B379226E4E2330033BD4F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE4B379326E4E2440033BD4F /* PostScreenViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BE4B379326E4E2440033BD4F /* PostScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				BE4B379426E4E26E0033BD4F /* PostContentTableViewCell.xib */,
+				BE4B37C026E4E6D00033BD4F /* PostContentTableVIewCellTableViewCell.swift */,
+			);
+			path = PostScreenViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +297,7 @@
 				BE4B373A26E4C1760033BD4F /* LaunchScreen.storyboard in Resources */,
 				BE4B373726E4C1760033BD4F /* Assets.xcassets in Resources */,
 				BE4B377D26E4CBCA0033BD4F /* Readme.md in Resources */,
+				BE4B379526E4E26E0033BD4F /* PostContentTableViewCell.xib in Resources */,
 				BE4B373526E4C1750033BD4F /* PostsScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE4B378926E4DAEB0033BD4F /* Constants.swift in Sources */,
+				BE4B37C126E4E6D00033BD4F /* PostContentTableVIewCellTableViewCell.swift in Sources */,
 				BE4B378326E4D9AF0033BD4F /* APIManager.swift in Sources */,
 				BE4B373226E4C1750033BD4F /* PostsViewController.swift in Sources */,
 				BE4B372E26E4C1750033BD4F /* AppDelegate.swift in Sources */,
